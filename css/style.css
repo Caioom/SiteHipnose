@@ -22,3 +22,9 @@
 .format-reasons .row{
     margin-bottom: 10px;
 }
+
+/* social medias - session reasons */
+.social-medias img{
+    margin-top: 25px;
+    width: 40px;
+}
