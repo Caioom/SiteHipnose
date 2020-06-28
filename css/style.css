@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.present-warning {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.format-reasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.format-reasons .row{
+    margin-bottom: 10px;
+}
