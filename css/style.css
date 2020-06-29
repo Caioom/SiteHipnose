@@ -91,6 +91,17 @@
     background-image: url('../assets/tratamentos/bg-tratamentos.jpeg');
 }
 
+/*Videos session*/
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video iframe{
+    margin: 5px;
+}
+
 /* Rodape */
 .rodape {
     background-color: #383A41;
@@ -103,5 +114,101 @@
 .rodape .conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+
+/* Responsiveness treatment */ 
+@media screen and (min-width: 768px) {
+    .align-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Assert banner */
+    .banner, .bg-banner {
+       height: 700px;
+    }
+
+    .banner-content h1, .lead, .btn-banner {
+        text-align: center;
+    }
+
+    .box {
+        padding: 20px;
+        width: 500px;
+        border: solid 2px black;
+        border-radius: 7px;
+        background-color: rgba(56, 58, 65, 0.952);
+    }
+
+    /*Assert council*/ 
+    .conselhos-federais .content {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /*Assert treatments*/
+    .como-sao-tratamentos button {
+        margin-top: 50px;
+    }
+
+    /*Assert video*/
+    .video {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .video iframe{
+        margin: 5px;
+    }
+
+    /*Assert rodape*/
+     .rodape .conteudo{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .title {
+        font-size: 50px;
+    }
+
+    /*Assert reasons*/
+    .motivos h3{
+        font-size: 25px;
+    }
+
+    .motivos {
+        font-size: 20px;
+    }
+
+    /*Assert treatments*/
+    .tratamentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-tratamento {
+        width: 500px;
+        height: 600px;
+    }
+
+    .card-situacao {
+        font-size: 20px;
+    }
+    
+    /*Assert how work*/
+
+    /*Assert video*/
+    .video {
+        flex-wrap: nowrap;
+    }
 }

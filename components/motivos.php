@@ -1,4 +1,4 @@
-<section class="row p-0 m-0 mt-3">
+<section class="row p-0 m-0 mt-3 motivos">
     <div class="col-sm-12 text-center">
         <h1 class="title">8 Motivos para você fazer hipnoterapia comigo</h1>
         <div class="format-reasons">

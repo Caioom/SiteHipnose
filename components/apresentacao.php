@@ -8,7 +8,7 @@
             <br>
             <span style="font-weight: 500; font-size: 18px;">Um pouco da minha história</span>
         </p>
-        <p class="container"> 
+        <p class="container text-center"> 
             askfsdafjsdakjgakgjaklsgmalskgjsdalkf<br>jsadlkjfksaldjf
             jsadfdsalkfjsadlkfj<br>sdakfjsadlkdsafasdlkjfadsj<br>fsadkjfsadlk
             kfjsafjsadlkfjsdlakjfsdlkjksldfsd
