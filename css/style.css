@@ -8,11 +8,19 @@
     font-weight: 600;
 }
 
+/* Present session */
 .present-warning {
     padding-top: 5px;
     padding-bottom: 10px;
 }
 
+/* Banner session */
+.bg-banner {
+    background-image: url('../assets/tratamentos/bg-tratamentos.jpeg');
+    background-size: cover;
+}
+
+/* Reasons session */
 .format-reasons {
     display: flex;
     flex-direction: column;
@@ -23,8 +31,77 @@
     margin-bottom: 10px;
 }
 
+.format-reasons h3 {
+    font-size: 18px;
+}
+
+
 /* social medias - session reasons */
 .social-medias img{
     margin-top: 25px;
     width: 40px;
+}
+
+/* Whoami */
+.whoami {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(229, 166, 187, 0.356);
+}
+
+.whoami .img {
+    width: 120px;
+    height: 120px;
+    background-image: url('../assets/perfis/perfil.jpg');
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/* What may be trated by hipnose */
+.tratamento-hipnose .card-tratamento {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 7px;
+    background-color: beige;
+    margin-bottom: 15px;
+}
+
+.tratamento-hipnose .card-situacao {
+    font-weight: 600;
+}
+
+/* Federal council */
+.conselhos-federais .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conselhos-federais img {
+    width: 150px;
+}
+
+/* How work session */
+.bg-tratamentos {
+    color: white;
+    background-image: url('../assets/tratamentos/bg-tratamentos.jpeg');
+}
+
+/* Rodape */
+.rodape {
+    background-color: #383A41;
+}
+
+.rodape .logo {
+    width: 300px;
+}
+
+.rodape .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

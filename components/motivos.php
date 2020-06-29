@@ -1,26 +1,32 @@
-<section class="row p-0 m-0">
+<section class="row p-0 m-0 mt-3">
     <div class="col-sm-12 text-center">
         <h1 class="title">8 Motivos para você fazer hipnoterapia comigo</h1>
         <div class="format-reasons">
             <div class="row">
-                <div class="col-xs-12" style="border: solid 1px;">Motivo 1</div>
+                <div class="col-xs-12 p-3">
+                    <h3>Desprender-se de Tudo Que Trava Sua Vida.</h3>
+                    <p>
+                    Trilharemos um caminho que te libertará de medos, fobias, ansiedade e traumas.
+                    </p>
+                </div>
             </div>
             <div class="row">
-                <div class="col-xs-12" style="border: solid 1px;">Motivo 2</div>
+                <div class="col-xs-12 p-3">
+                    <h3>Alavancar sua vida.</h3>
+                    <p>
+                    Tenha confiança para buscar o que deseja, alinhe-se com seu propósito.
+                    </p>
+                </div>
             </div>
             <div class="row">
-                <div class="col-xs-12" style="border: solid 1px;">Motivo 3</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12" style="border: solid 1px;">Motivo 4</div>
+                <div class="col-xs-12 p-3">
+                    <h3>Benefícios logo na primeira sessão.</h3>
+                    <p>
+                    Sinta os benefícios da Hipnoterapia logo na primeira sessão.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="container social-medias">
-            <a href="http://" target="_blank"><img src="./assets/social-media-icons/instagram.png" alt="Icone do Instagram"></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://" target="_blank"><img src="./assets/social-media-icons/whatsapp.png" alt="Icone do Whatsapp"></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="http://" target="_blank"><img src="./assets/social-media-icons/facebook.png" alt="Icone do Facebook"></a>
-        </div>
+        <?php require('./components/midias.php'); ?> 
     </div>
 </section>
