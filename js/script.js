@@ -32,12 +32,12 @@ $('.icone-menu').click(() => {
     $('.icone-menu').hide();
     $('.icone-fechar-menu').show();
 
-    $('#items').show();
+    $('#items').slideDown();
 });
 
 $('.icone-fechar-menu').click(() => { 
     $('.icone-fechar-menu').hide();
     $('.icone-menu').show();
 
-    $('#items').hide();
+    $('#items').slideUp();
 });

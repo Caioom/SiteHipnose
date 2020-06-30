@@ -14,9 +14,16 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #E5A6BB;
     color: white;
     z-index: 1;
+}
+
+.bg-menu {
+    background-color: #383A41;
+}
+
+.menu-mobile .logo {
+    display: none;
 }
 
 .menu-mobile a {
@@ -33,17 +40,29 @@
 .items-align {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .opcoes a {
+    padding: 0px !important;
     font-family: Courier;   
+}
+
+.icone-menu:hover {
+    cursor: pointer;
+}
+
+.icone-fechar-menu:hover {
+    cursor: pointer;
+}
+
+.bg-items {
+    background-color: #383A41;
 }
 
 #items {
     padding-top: 20px;
-    background-color: rgba(229, 166, 187, 0.952);
     padding: 10px;
     z-index: 1;
 }
@@ -66,13 +85,20 @@
 /* Banner session */
 .banner {
     position: relative;
-    top: 50px;
-    margin-bottom: 55px;
+    top: 0px;
+    margin-bottom: 20px;
+}
+
+.banner .banner-content .jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bg-banner {
-    background-image: url('../assets/tratamentos/bg-tratamentos.jpeg');
+    background-image: url('../assets/imgs/mulher.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Reasons session */
@@ -98,14 +124,14 @@
 }
 
 /* Whoami */
-.whoami {
+#quemSouEu .conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(229, 166, 187, 0.356);
 }
 
-.whoami .img {
+#quemSouEu .conteudo .img {
     width: 120px;
     height: 120px;
     background-image: url('../assets/perfis/perfil.jpg');
@@ -114,19 +140,8 @@
 }
 
 /* What may be trated by hipnose */
-.tratamento-hipnose .card-tratamento {
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px;
-    border-radius: 7px;
-    background-color: beige;
-    margin-bottom: 15px;
-}
-
-.tratamento-hipnose .card-situacao {
-    font-weight: 600;
+.btn-blue {
+    background-color: #33A0BB !important;
 }
 
 /* Federal council */
@@ -141,9 +156,10 @@
 }
 
 /* How work session */
-.bg-tratamentos {
-    color: white;
-    background-image: url('../assets/tratamentos/bg-tratamentos.jpeg');
+.bg-perguntas {
+    color: #383A41;
+    background-image: url('../assets/imgs/menino-planta-branco.png');
+    background-size: cover;
 }
 
 /*Videos session*/
@@ -189,14 +205,6 @@
         text-align: center;
     }
 
-    .box {
-        padding: 20px;
-        width: 500px;
-        border: solid 2px black;
-        border-radius: 7px;
-        background-color: rgba(56, 58, 65, 0.952);
-    }
-
     /*Assert council*/ 
     .conselhos-federais .content {
         flex-direction: row;
@@ -207,6 +215,12 @@
     /*Assert treatments*/
     .como-sao-tratamentos button {
         margin-top: 50px;
+    }
+
+    .perguntas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /*Assert video*/
@@ -221,6 +235,17 @@
         margin: 5px;
     }
 
+    /*Questions*/
+    #perguntas .perguntas{
+        border-radius: 10px;
+        width: 650px;
+    }
+
+    #perguntas .align {
+        display: flex;
+        justify-content: center;
+    }
+
     /*Assert rodape*/
      .rodape .conteudo{
          display: flex;
@@ -228,6 +253,48 @@
          align-items: center;
      }
     
+}
+
+@media screen and (min-width: 1024px) {
+    /*Assert menu*/
+    .menu-desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .menu-desktop .logo {
+        display: block;
+    }
+
+    .opcoes a {
+        padding-left: 0px !important;
+        width: max-content;
+    }
+
+    .icone-menu, .icone-fechar-menu {
+        display: none !important;
+    }
+
+    #items {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #items a {
+        font-size: 15px;
+        float: right;
+        padding: 5px;
+    }
+
+    /*Whoami*/
+    #quemSouEu .conteudo {
+        border-radius: 10px;
+        width: 650px;
+        padding: 20px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -245,15 +312,10 @@
     }
 
     /*Assert treatments*/
-    .tratamentos {
+    .perguntas {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .card-tratamento {
-        width: 500px;
-        height: 600px;
     }
 
     .card-situacao {

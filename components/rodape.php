@@ -1,4 +1,4 @@
-<section class="row m-0 p-0 mt-5 rodape">
+<section class="row m-0 p-0 mt-5 rodape" id="contato">
     <div class="container">
         <div class="col-xs-12 conteudo">
             <img class="logo" src="./assets/logo/logo_escuro.png" alt="Logo Jussara Pereira de Souza Mello">
