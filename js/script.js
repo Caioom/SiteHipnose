@@ -23,3 +23,21 @@ if(screen.width >= 768) {
     //Assert council
     $('.conselhos-federais').removeClass('.p-0');
 }
+
+//Menu effects
+$('.icone-fechar-menu').hide();
+$('#items').hide();
+
+$('.icone-menu').click(() => { 
+    $('.icone-menu').hide();
+    $('.icone-fechar-menu').show();
+
+    $('#items').show();
+});
+
+$('.icone-fechar-menu').click(() => { 
+    $('.icone-fechar-menu').hide();
+    $('.icone-menu').show();
+
+    $('#items').hide();
+});

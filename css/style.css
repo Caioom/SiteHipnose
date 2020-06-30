@@ -8,6 +8,55 @@
     font-weight: 600;
 }
 
+/*Menu mobile*/
+.menu-mobile {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #E5A6BB;
+    color: white;
+    z-index: 1;
+}
+
+.menu-mobile a {
+    color: white;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes a {
+    font-family: Courier;   
+}
+
+#items {
+    padding-top: 20px;
+    background-color: rgba(229, 166, 187, 0.952);
+    padding: 10px;
+    z-index: 1;
+}
+
+#items a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+
 /* Present session */
 .present-warning {
     padding-top: 5px;
@@ -15,6 +64,12 @@
 }
 
 /* Banner session */
+.banner {
+    position: relative;
+    top: 50px;
+    margin-bottom: 55px;
+}
+
 .bg-banner {
     background-image: url('../assets/tratamentos/bg-tratamentos.jpeg');
     background-size: cover;
