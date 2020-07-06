@@ -134,7 +134,7 @@
 #quemSouEu .conteudo .img {
     width: 120px;
     height: 120px;
-    background-image: url('../assets/perfis/perfil.jpg');
+    background-image: url('../assets/perfis/img_perfil.jpg');
     background-size: cover;
     border-radius: 100%;
 }

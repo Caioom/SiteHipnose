@@ -2,8 +2,8 @@
     <div class="container">
         <div class="col-xs-12 text-center" id="subscribe-center">
             <h1 class="title text-center pt-3">Como são as sessões?</h1>
-            <div class="text-left box" id="text-tratamento">
-                <p>
+            <div class="box" id="text-tratamento">
+                <p class="text-left">
                 Após uma conversa inicial sem compromisso, iniciamos a terapia.
                 <br>
                 Um encontro semanal online.

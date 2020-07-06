@@ -1,6 +1,6 @@
 <section class="row p-0 m-0 mt-3 motivos" id="motivos">
-    <div class="col-sm-12 text-center">
-        <h1 class="title">Por que fazer hipnoterapia?</h1>
+    <div class="col-sm-12 mt-5 text-center">
+        <h1 class="title">A hipnoterapia é pra você...</h1>
         <div class="format-reasons">
             <div class="row">
                 <div class="col-xs-12 p-3">
