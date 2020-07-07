@@ -6,7 +6,7 @@
                 <?php require('./components/midias.php'); ?>
                 <p style="color: white;">
                     <br>Todos os direitos reservados 2020 &copy; -
-                    <br>Developed by caio.ds.2003@gmail.com | Design by Yuri.
+                    <br>Developed by caio.ds.2003@gmail.com
                 </p>
             </div>
         </div>

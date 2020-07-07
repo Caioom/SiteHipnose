@@ -1,7 +1,7 @@
-<div class="row p-0 m-0">
+<div class="row p-0 m-0 nav-config">
     <div class="col-xs-12 menu-mobile container-fluid menu-desktop bg-menu" id="nav-menu">
         <div class="opcoes">
-            <img class="logo" width="90px" src="./assets/logo/logo_cerebro.png" alt="Logo hipnoterapeuta">
+            <a href="#intro"><img class="logo" width="90px" src="./assets/logo/logo_cerebro.png" alt="Logo hipnoterapeuta"></a>
             <a href="#intro">Jussara Mello</a>
             <span class="material-icons icone-menu">
                 menu

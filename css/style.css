@@ -85,8 +85,7 @@
 /* Banner session */
 .banner {
     position: relative;
-    top: 0px;
-    margin-bottom: 20px;
+    top: 15px;
 }
 
 .banner .banner-content .jumbotron {
@@ -114,6 +113,37 @@
 
 .format-reasons h3 {
     font-size: 18px;
+}
+
+.conteudo-motivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone-motivo {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.bg-desprender {
+    background-image: url('../assets/imgs/passaro-gaiola.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-alavancar {
+    background-image: url('../assets/imgs/foguete.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-primeiraSessao {
+    background-image: url('../assets/imgs/coracao.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -287,6 +317,25 @@
         font-size: 15px;
         float: right;
         padding: 5px;
+    }
+
+    /*Reasons*/
+    .format-reasons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .format-reasons .row {
+        margin: 50px;
+    }
+
+    #primeira-sessao {
+        margin-top: 50px;
+    }
+
+    #desprender {
+        margin-top: 20px;
     }
 
     /*Whoami*/
